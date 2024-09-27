@@ -73,36 +73,6 @@
         "id": 14,
         "name": "Robot Lambda",
         "imageURL": "images/robot/robot_head_glasses_10.jpeg"
-      },
-      {
-        "id": 15,
-        "name": "Robot Mu",
-        "imageURL": "images/robot/robot_head_glasses_11.jpeg"
-      },
-      {
-        "id": 16,
-        "name": "Robot Nu",
-        "imageURL": "images/robot/robot_head_glasses_12.jpeg"
-      },
-      {
-        "id": 17,
-        "name": "Robot Xi",
-        "imageURL": "images/robot/robot_head_glasses_13.jpeg"
-      },
-      {
-        "id": 18,
-        "name": "Robot Omicron",
-        "imageURL": "images/robot/robot_head_glasses_14.jpeg"
-      },
-      {
-        "id": 19,
-        "name": "Robot Pi",
-        "imageURL": "images/robot/robot_head_glasses_15.jpeg"
-      },
-      {
-        "id": 20,
-        "name": "Robot Rho",
-        "imageURL": "images/robot/robot_head_glasses_16.jpeg"
       }
     ]
   }

@@ -6,14 +6,47 @@
   <title>ai-avatar</title>
 </head>
 <body>
+      <h1>JSON Data</h1>
+      <pre id="json-output"></pre>
+
+      <h1>Animal List Image Rendering</h1>
+      <ul id="animal-list"></ul>
+      
+      <h1>Robot List Image Rendering</h1>
+      <ul id="robot-list"></ul>
+      
   
 </body>
 <script>
-  fetch('avatar.json')
-      .then(response => response.json())
-      .then(data => {
-       console.log(data);
-      })
-      .catch(error => console.error('Error fetching data:', error));
+ fetch('avatar.json') // Fetching the JSON file in the root directory
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      const animalList = document.getElementById('animal-list');
+      const robotList = document.getElementById('robot-list');
+      const jsonOutput = document.getElementById('json-output');
+
+      // Populate Animals
+      data.data.animals.forEach(animal => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${animal.name}</strong><br><img src="${animal.imageURL}" alt="${animal.name}" style="width:100px; height:auto;">`;
+        animalList.appendChild(li);
+      });
+
+      // Populate Robots
+      data.data.robots.forEach(robot => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${robot.name}</strong><br><img src="${robot.imageURL}" alt="${robot.name}" style="width:100px; height:auto;">`;
+        robotList.appendChild(li);
+      });
+
+      // Display JSON Data
+      jsonOutput.textContent = JSON.stringify(data, null, 2); // Pretty-print the JSON
+    })
+    .catch(error => console.error('Error fetching data:', error));
 </script>
 </html>
