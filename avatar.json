@@ -1,0 +1,109 @@
+{
+  "status": "success",
+  "data": {
+    "animals": [
+      {
+        "id": 1,
+        "name": "Brown Bear",
+        "imageURL": "images/animal/animal_head_glasses_0.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Sweet Bear",
+        "imageURL": "images/animal/animal_head_glasses_1.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Hamster Bear",
+        "imageURL": "images/animal/animal_head_glasses_2.jpeg"
+      }
+    ],
+    "robots": [
+      {
+        "id": 4,
+        "name": "Robot Alpha",
+        "imageURL": "images/robot/robot_head_glasses_0.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Robot Beta",
+        "imageURL": "images/robot/robot_head_glasses_1.jpeg"
+      },
+      {
+        "id": 6,
+        "name": "Robot Gamma",
+        "imageURL": "images/robot/robot_head_glasses_2.jpeg"
+      },
+      {
+        "id": 7,
+        "name": "Robot Delta",
+        "imageURL": "images/robot/robot_head_glasses_3.jpeg"
+      },
+      {
+        "id": 8,
+        "name": "Robot Epsilon",
+        "imageURL": "images/robot/robot_head_glasses_4.jpeg"
+      },
+      {
+        "id": 9,
+        "name": "Robot Zeta",
+        "imageURL": "images/robot/robot_head_glasses_5.jpeg"
+      },
+      {
+        "id": 10,
+        "name": "Robot Eta",
+        "imageURL": "images/robot/robot_head_glasses_6.jpeg"
+      },
+      {
+        "id": 11,
+        "name": "Robot Theta",
+        "imageURL": "images/robot/robot_head_glasses_7.jpeg"
+      },
+      {
+        "id": 12,
+        "name": "Robot Iota",
+        "imageURL": "images/robot/robot_head_glasses_8.jpeg"
+      },
+      {
+        "id": 13,
+        "name": "Robot Kappa",
+        "imageURL": "images/robot/robot_head_glasses_9.jpeg"
+      },
+      {
+        "id": 14,
+        "name": "Robot Lambda",
+        "imageURL": "images/robot/robot_head_glasses_10.jpeg"
+      },
+      {
+        "id": 15,
+        "name": "Robot Mu",
+        "imageURL": "images/robot/robot_head_glasses_11.jpeg"
+      },
+      {
+        "id": 16,
+        "name": "Robot Nu",
+        "imageURL": "images/robot/robot_head_glasses_12.jpeg"
+      },
+      {
+        "id": 17,
+        "name": "Robot Xi",
+        "imageURL": "images/robot/robot_head_glasses_13.jpeg"
+      },
+      {
+        "id": 18,
+        "name": "Robot Omicron",
+        "imageURL": "images/robot/robot_head_glasses_14.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Robot Pi",
+        "imageURL": "images/robot/robot_head_glasses_15.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Robot Rho",
+        "imageURL": "images/robot/robot_head_glasses_16.jpeg"
+      }
+    ]
+  }
+}
