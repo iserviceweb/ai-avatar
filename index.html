@@ -12,8 +12,15 @@
       <h1>Animal List Image Rendering</h1>
       <ul id="animal-list"></ul>
       
+      <h1>Alien List Image Rendering</h1>
+      <ul id="alien-list"></ul>
+
+      <h1>Monster List Image Rendering</h1>
+      <ul id="monster-list"></ul>
+
       <h1>Robot List Image Rendering</h1>
       <ul id="robot-list"></ul>
+      
       
   
 </body>
@@ -28,6 +35,8 @@
     .then(data => {
       const animalList = document.getElementById('animal-list');
       const robotList = document.getElementById('robot-list');
+      const alienList = document.getElementById('alien-list');
+      const monsterList = document.getElementById('monster-list');
       const jsonOutput = document.getElementById('json-output');
 
       // Populate Animals
@@ -36,7 +45,18 @@
         li.innerHTML = `<strong>${animal.name}</strong><br><img src="${animal.imageURL}" alt="${animal.name}" style="width:100px; height:auto;">`;
         animalList.appendChild(li);
       });
-
+      // Populate Aliens
+      data.data.aliens.forEach(alien => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${alien.name}</strong><br><img src="${alien.imageURL}" alt="${alien.name}" style="width:100px; height:auto;">`;
+       alienList.appendChild(li);
+      });
+      // Populate Monster
+      data.data.monsters.forEach(monster => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${monster.name}</strong><br><img src="${monster.imageURL}" alt="${monster.name}" style="width:100px; height:auto;">`;
+        monsterList.appendChild(li);
+      });
       // Populate Robots
       data.data.robots.forEach(robot => {
         const li = document.createElement('li');
@@ -45,7 +65,7 @@
       });
 
       // Display JSON Data
-      jsonOutput.textContent = JSON.stringify(data, null, 2); // Pretty-print the JSON
+      jsonOutput.textContent = JSON.stringify(data, null, 4); // Pretty-print the JSON
     })
     .catch(error => console.error('Error fetching data:', error));
 </script>

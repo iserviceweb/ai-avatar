@@ -70,9 +70,108 @@
         "imageURL": "images/robot/robot_head_glasses_9.jpeg"
       },
       {
-        "id": 14,
-        "name": "Robot Lambda",
+        "id": 13,
+        "name": "Robot Kai",
         "imageURL": "images/robot/robot_head_glasses_10.jpeg"
+      },
+      {
+        "id": 15,
+        "name": "Robot Mu",
+        "imageURL": "images/robot/robot_head_glasses_11.jpeg"
+      },
+      {
+        "id": 16,
+        "name": "Robot Nu",
+        "imageURL": "images/robot/robot_head_glasses_12.jpeg"
+      },
+      {
+        "id": 17,
+        "name": "Robot Xi",
+        "imageURL": "images/robot/robot_head_glasses_13.jpeg"
+      },
+      {
+        "id": 18,
+        "name": "Robot Omicron",
+        "imageURL": "images/robot/robot_head_glasses_14.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Robot Pi",
+        "imageURL": "images/robot/robot_head_glasses_15.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Robot Rho",
+        "imageURL": "images/robot/robot_head_glasses_16.jpeg"
+      },
+      {
+        "id": 21,
+        "name": "Robot Sigma",
+        "imageURL": "images/robot/robot_head_glasses_17.jpeg"
+      },
+      {
+        "id": 22,
+        "name": "Robot Tau",
+        "imageURL": "images/robot/robot_head_glasses_18.jpeg"
+      },
+      {
+        "id": 23,
+        "name": "Robot Upsilon",
+        "imageURL": "images/robot/robot_head_glasses_19.jpeg"
+      },
+      {
+        "id": 24,
+        "name": "Robot Phi",
+        "imageURL": "images/robot/robot_head_glasses_20.jpeg"
+      },
+      {
+        "id": 25,
+        "name": "Robot Chi",
+        "imageURL": "images/robot/robot_head_glasses_21.jpeg"
+      },
+      {
+        "id": 26,
+        "name": "Robot Psi",
+        "imageURL": "images/robot/robot_head_glasses_22.jpeg"
+      }
+    ],
+    "aliens": [
+      {
+        "id": 28,
+        "name": "Alein Zhrakx",
+        "imageURL": "images/alien/alien_head_glasses_0.jpeg"
+      },
+      {
+        "id": 29,
+        "name": "Alein Xexuon",
+        "imageURL": "images/alien/alien_head_glasses_1.jpeg"
+      },
+      {
+        "id": 30,
+        "name": "Alein Throkos",
+        "imageURL": "images/alien/alien_head_glasses_2.jpeg"
+      },
+      {
+        "id": 31,
+        "name": "Alein N'Korvath",
+        "imageURL": "images/alien/alien_head_glasses_3.jpeg"
+      }
+    ],
+    "monsters": [
+      {
+        "id": 1,
+        "name": "Monster Gorvoth",
+        "imageURL": "images/monster/monster_head_glasses_0.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Monster Kralgix",
+        "imageURL": "images/monster/monster_head_glasses_1.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Monster Vorgath",
+        "imageURL": "images/monster/monster_head_glasses_2.jpeg"
       }
     ]
   }
