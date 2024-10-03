@@ -18,6 +18,45 @@
         "imageURL": "images/animal/animal_head_glasses_2.jpeg"
       }
     ],
+    "aliens": [
+      {
+        "id": 28,
+        "name": "Alein Zhrakx",
+        "imageURL": "images/alien/alien_head_glasses_0.jpeg"
+      },
+      {
+        "id": 29,
+        "name": "Alein Xexuon",
+        "imageURL": "images/alien/alien_head_glasses_1.jpeg"
+      },
+      {
+        "id": 30,
+        "name": "Alein Throkos",
+        "imageURL": "images/alien/alien_head_glasses_2.jpeg"
+      },
+      {
+        "id": 31,
+        "name": "Alein N'Korvath",
+        "imageURL": "images/alien/alien_head_glasses_3.jpeg"
+      }
+    ],
+    "monsters": [
+      {
+        "id": 1,
+        "name": "Monster Gorvoth",
+        "imageURL": "images/monster/monster_head_glasses_0.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Monster Kralgix",
+        "imageURL": "images/monster/monster_head_glasses_1.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Monster Vorgath",
+        "imageURL": "images/monster/monster_head_glasses_2.jpeg"
+      }
+    ],
     "robots": [
       {
         "id": 4,
@@ -133,45 +172,6 @@
         "id": 26,
         "name": "Robot Psi",
         "imageURL": "images/robot/robot_head_glasses_22.jpeg"
-      }
-    ],
-    "aliens": [
-      {
-        "id": 28,
-        "name": "Alein Zhrakx",
-        "imageURL": "images/alien/alien_head_glasses_0.jpeg"
-      },
-      {
-        "id": 29,
-        "name": "Alein Xexuon",
-        "imageURL": "images/alien/alien_head_glasses_1.jpeg"
-      },
-      {
-        "id": 30,
-        "name": "Alein Throkos",
-        "imageURL": "images/alien/alien_head_glasses_2.jpeg"
-      },
-      {
-        "id": 31,
-        "name": "Alein N'Korvath",
-        "imageURL": "images/alien/alien_head_glasses_3.jpeg"
-      }
-    ],
-    "monsters": [
-      {
-        "id": 1,
-        "name": "Monster Gorvoth",
-        "imageURL": "images/monster/monster_head_glasses_0.jpeg"
-      },
-      {
-        "id": 2,
-        "name": "Monster Kralgix",
-        "imageURL": "images/monster/monster_head_glasses_1.jpeg"
-      },
-      {
-        "id": 3,
-        "name": "Monster Vorgath",
-        "imageURL": "images/monster/monster_head_glasses_2.jpeg"
       }
     ]
   }
